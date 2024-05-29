@@ -1,0 +1,510 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Products{% endblock %}
+{% block content %}
+
+
+<!-- BANNER SLIDER  -->
+<section>
+  <div class="container mt-2">
+      <div class="row">
+          <div class="col-12">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner rounded-5">
+                      <a href="">
+                          <div class="carousel-item active">
+                              <img src="{% static 'img/royal-canin-daily-cat-food.webp' %}" class="d-block w-100" alt="banner1">
+                          </div>
+                      </a>
+                      <a href="">
+                          <div class="carousel-item">
+                              <img src="{% static 'img/royal-canin-dog-foods.webp' %}" class="d-block w-100" alt="banner2">
+                          </div>
+                      </a>
+                      <a href="">
+                          <div class="carousel-item">
+                              <img src="{% static 'img/hills-care-foods.webp' %}" class="d-block w-100" alt="banner3">
+                          </div>
+                      </a>
+                      <a href="">
+                          <div class="carousel-item">
+                              <img src="{% static 'img/hills-daily-foods.webp' %}" class="d-block w-100" alt="banner4">
+                          </div>
+                      </a>
+                      <a href="">
+                          <div class="carousel-item">
+                              <img src="{% static 'img/proplan-foods.webp' %}" class="d-block w-100" alt="banner5">
+                          </div>
+                      </a>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<!-- DOG & CAT -->
+
+<div class="container mt-5">
+
+    <div class="row gx-5">
+
+        <div class="col-6 position-relative UP">
+
+            <a href="">
+
+                <div class="position-absolute top-0 end-0 mx-5">
+                    <img  src={% static "img/cat-sitting-boarding-daycare-15-1.webp" %} alt="">
+                </div>
+
+                <div class="bg-Cat rounded-4 d-flex p-5 mt-5">
+                    <h1 class="fw-bold text-center text-white mb-5">غــذای گـــربه</h1>
+                </div>
+
+            </a>
+        </div>
+
+        <div class="col-6 position-relative DOWN ">
+
+            <a href="">
+                <div class="position-absolute top-0 end-0 mx-5">
+                    <img  src={% static "img/dog-png-golden-retriever-comfort-canine-17-1.webp" %} alt="">
+                </div>
+
+                <div class="bg-Dog rounded-4 d-flex p-5 mt-5">
+                    <h1 class="fw-bold text-center text-white mb-5">غــذای ســــگ</h1>
+                </div>
+            </a>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<div class="container mt-5 ">
+    <div class="owl-carousel border border-2 p-3 rounded-4 owl-theme bg-white shadow">
+      <div class="item rounded-4 ">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 1" class="img-fluid mt-3">
+        <div class="product-details">
+          <div class="product-name">X-Box</div>
+          <div class="product-description">کنسول بازی</div>
+          <button class="bg-money text-white border-0 rounded-4" ><small>
+
+            2,000,000 تومان</button>
+          </small>
+        </div>
+      </div>
+
+      <div class="item rounded-4 ">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 1" class="img-fluid mt-3">
+        <div class="product-details">
+          <div class="product-name">X-Box</div>
+          <div class="product-description">کنسول بازی</div>
+          <button class="bg-money text-white border-0 rounded-4" ><small>
+
+            2,000,000 تومان</button>
+          </small>
+        </div>
+      </div>
+
+
+      <div class="item rounded-4 ">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 1" class="img-fluid mt-3">
+        <div class="product-details">
+          <div class="product-name">X-Box</div>
+          <div class="product-description">کنسول بازی</div>
+          <button class="bg-money text-white border-0 rounded-4" ><small>
+
+            2,000,000 تومان</button>
+          </small>
+        </div>
+      </div>
+
+
+      
+
+      
+
+      
+    </div>
+  </div>
+
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-6 col-md-3">
+            <img class="img-fluid rounded-4" src="./block-s--2.jpg" alt="">
+        </div>
+        <div class="col-6 col-md-3">
+            <img class="img-fluid rounded-4" src="./block-s--2.jpg" alt="">
+        </div>
+        <div class="col-6 col-md-3">
+            <img class="img-fluid rounded-4" src="./block-s--2.jpg" alt="">
+        </div>
+        <div class="col-6 col-md-3">
+            <img class="img-fluid rounded-4" src="./block-s--2.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 ">
+    <div class="owl-carousel  border border-2 p-2 rounded-4  owl-theme bg-white">
+      <div class="item">
+        <img src="./xbox-series-X-260x260.jpg" alt="Product 1" class="product-image">
+        <div class="product-details">
+          <div class="product-name">X-Box</div>
+          <div class="product-price">$10.00</div>
+          <div class="product-description">This is a short description of product 1.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 3" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 3</div>
+          <div class="product-price">$30.00</div>
+          <div class="product-description">This is a short description of product 3.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 4" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 4</div>
+          <div class="product-price">$40.00</div>
+          <div class="product-description">This is a short description of product 4.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 5" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 5</div>
+          <div class="product-price">$50.00</div>
+          <div class="product-description">This is a short description of product 5.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 ">
+    <div class="owl-carousel  border border-2 p-2 rounded-4  owl-theme bg-white">
+      <div class="item">
+        <img src="./xbox-series-X-260x260.jpg" alt="Product 1" class="product-image">
+        <div class="product-details">
+          <div class="product-name">X-Box</div>
+          <div class="product-price">$10.00</div>
+          <div class="product-description">This is a short description of product 1.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 2" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 2</div>
+          <div class="product-price">$20.00</div>
+          <div class="product-description">This is a short description of product 2.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 3" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 3</div>
+          <div class="product-price">$30.00</div>
+          <div class="product-description">This is a short description of product 3.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 4" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 4</div>
+          <div class="product-price">$40.00</div>
+          <div class="product-description">This is a short description of product 4.</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./cat-sitting-boarding-daycare-15-1.webp" alt="Product 5" class="product-image">
+        <div class="product-details">
+          <div class="product-name">Product 5</div>
+          <div class="product-price">$50.00</div>
+          <div class="product-description">This is a short description of product 5.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded-5">
+                    <a href="">
+
+                        <div class="carousel-item active">
+                            <img src="./razer-products-1352x326.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="carousel-item">
+                            <img src="./razer-products-1352x326.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                    <a href="">
+
+                        <div class="carousel-item">
+                            <img src="./razer-products-1352x326.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="container  mt-4">
+
+  <div class="containers row">
+    <div class="big-box col-12 col-md-6 border border-2 ">
+      <div class="small-box-container  ">
+        <div class="small-box bg-moneylevel1 w-100">0 تا 500 تومان</div>
+        <div class="small-box bg-moneylevel2 w-100">500 تا 1میلیون</div>
+        <div class="small-box bg-moneylevel3 w-100">1تا2 میلیون</div>
+        <div class="small-box bg-moneylevel4 w-100">2تا4 میلیون</div>
+        <div class="small-box bg-moneylevel5 w-100">4تا10 میلیون</div>
+        <div class="small-box bg-moneylevel6 w-100">10 به بالا</div>
+      </div>
+    </div>
+    <div class="big-box col-12 col-md-6 border border border-2">
+      <div class="small-box-container ">
+        <div class="small-box btn btn-outline-danger">زیر 1 سال</div>
+          <div class="small-box btn btn-outline-info">1تا 7</div>
+          <div class="small-box btn btn-outline-warning">7 به بالا</div>
+          <div class="small-box btn btn-outline-primary" >عقیم شده</div>
+          <div class="small-box btn btn-outline-dark">مادر و بچه</div>
+          <div class="small-box  btn btn-outline-success">سالخورده</div>
+        </div>
+      </div>
+</div>
+
+    </div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-3">
+            <button class="btn btn-outline-info w-100 border-info border-0 d-flex justify-content-center"> 
+              <div class="text-hover mt-3">
+
+                <i class=" text-hover bi bi-truck h1 mt-2"></i>
+              </div>
+              <div class="text-hover mt-3">
+
+                <h4 class="text-hover ">ارسال رایگان</h4>
+                <p class="text-hover " >برای اطلاع از شرایط کلیک کنید</p>
+              </div>
+            </button>
+        </div>
+        <div class="col-3">
+            <button class="btn  btn-outline-danger  w-100  border border-2 border-danger d-flex justify-content-center "> 
+              <div class="text-hover mt-3">
+
+                <i class=" text-hover bi bi-stars h1 mt-2"></i>
+              </div>
+              <div class="text-hover mt-3">
+
+                <h4 class="text-hover ">ضمانت</h4>
+                <p class="text-hover">درگاه اینترنتی وکارت بانکی</p>
+              </div>
+            </button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-outline-warning  w-100  border-2 border border-warning d-flex  text-hover text-center justify-content-center">
+              <div class="text-hover mt-3">
+
+                <i class=" text-hover bi bi-truck h1 mt-2"></i>
+              </div>
+              <div class="text-hover mt-3">
+
+                <h4 class="text-hover ">پرداخت آسان</h4>
+                <p class="text-hover">درگاه اینترنتی وکارت بانکی</p>
+              </div>
+              </button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-outline-primary  w-100  border border-2 border-primary d-flex justify-content-center"> 
+              <div class="text-hover mt-3">
+
+                <i class=" text-hover bi bi-truck h1 mt-2"></i>
+              </div>
+              <div class="text-hover mt-3">
+
+                <h4 class="text-hover ">پرداخت آسان</h4>
+                <p class="text-hover">درگاه اینترنتی وکارت بانکی</p>
+              </div></button>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-primary mt-5 text-white ">
+  <div class="container">
+      <div class="row">
+          <!-- Social Media Section -->
+          <div class="col-md-6 text-start">
+            <img src="https://www.technolife.ir/image/static_technolife-title.svg" alt="Your Image">
+        </div>
+          <div class="col-md-6 d-flex justify-content-end text-white">
+              <div class="social-media text-end ">
+                  <a href="https://t.me/yourtelegram " class="bi bi-telegram text-white h3" target="_blank"></a>
+                  <a href="https://instagram.com/yourinstagram" class="bi bi-instagram text-white h3" target="_blank"></a>
+              </div>
+          </div>
+          
+      </div>
+      <hr>
+      <div class="row">
+          <!-- Column 1 -->
+          <div class="col-md-3">
+              <h5>ستون ۱</h5>
+              <ul class="column-links">
+                  <li><a href="#">لینک ۱</a></li>
+                  <li><a href="#">لینک ۲</a></li>
+                  <li><a href="#">لینک ۳</a></li>
+                  <li><a href="#">لینک ۴</a></li>
+              </ul>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-3">
+              <h5>ستون ۲</h5>
+              <ul class="column-links">
+                  <li><a href="#">لینک ۱</a></li>
+                  <li><a href="#">لینک ۲</a></li>
+                  <li><a href="#">لینک ۳</a></li>
+                  <li><a href="#">لینک ۴</a></li>
+              </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-3">
+              <h5>ستون ۳</h5>
+              <ul class="column-links">
+                  <li><a href="#">لینک ۱</a></li>
+                  <li><a href="#">لینک 2</a></li>
+                  <li><a href="#">لینک 3</a></li>
+                  <li><a href="#">لینک 4</a></li>
+              </ul>
+          </div>
+          <!-- Column 4 -->
+          <div class="col-md-3">
+              <h5>ستون ۴</h5>
+              <ul class="column-links">
+                  <li><a href="#">لینک ۱</a></li>
+                  <li><a href="#">لینک ۲</a></li>
+                  <li><a href="#">لینک ۳</a></li>
+                  <li><a href="#">لینک ۴</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- LINK JAVASCRIPT CUSTOM -->
+    
+  <script src="./JavaScript.js"></script>
+  </body>
+</html>
+
+
+
+{% endblock %}

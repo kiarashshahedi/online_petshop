@@ -1,0 +1,490 @@
+/* FONT VAZIR ALL HTML */
+@font-face {
+    font-family: "Vazir";
+    src: url(./vazir.ttf);
+}
+body{
+    font-family: "Vazir";
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+/* INPUT SEARCH IN NAVBAR */
+.bg-search{
+    background-color: rgb(240 240 240)
+}
+
+.noborderfocus {
+    border: none !important;
+    box-shadow: none !important;
+}
+.noborderfocus:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.highlighted {
+    position: relative;
+    z-index: 1000;
+}
+#search-suggestions {
+    display: none;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+body.focused #search-suggestions {
+    display: block;
+}
+/* NAVBAR PAIIN HOVER */
+.menu-item {
+    position: relative;
+}
+.submenu, .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+.submenu, .subsubmenu1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+.submenu, .subsubmenu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+.submenu, .subsubmenu3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+.submenu, .subsubmenu4 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+.submenu, .subsubmenu5 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+.submenu, .subsubmenu6 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+.submenu, .subsubmenu7 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+
+.submenu, .subsubmenu8 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+
+.submenu, .subsubmenu9 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+
+.submenu, .subsubmenu10 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+
+.submenu, .subsubmenu11 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px;
+}
+
+
+.menu-item:hover .submenu {
+    display: block;
+}
+.submenu-item {
+    position: relative;
+}
+.submenu-item .subsubmenu {
+    display: block;
+    top: 0;
+    right: 100%;
+}
+
+.submenu-item:hover .subsubmenu1 {
+    display: block;
+    top: -100%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu2 {
+    display: block;
+    top: -200%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu3 {
+    display: block;
+    top: -300%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu4 {
+    display: block;
+    top: -400%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu5 {
+    display: block;
+    top: -500%;
+    right: 100%;
+}
+
+.submenu-item:hover .subsubmenu6 {
+    display: block;
+    top: -600%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu7 {
+    display: block;
+    top: -700%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu8 {
+    display: block;
+    top: -800%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu9 {
+    display: block;
+    top: -900%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu10 {
+    display: block;
+    top: -1000%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu11 {
+    display: block;
+    top: -1100%;
+    right: 100%;
+}
+
+
+.submenu-item:hover .subsubmenu12 {
+    display: block;
+    top: -1200%;
+    right: 100%;
+}
+.submenu-item, .subsubmenu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+.submenu-item:hover, .subsubmenu-item:hover {
+    background: #f0f0f0;
+}
+/* DOG & CAT  */
+.bg-Cat{
+    background: linear-gradient(65deg,#ff3333,#F84F55);
+    height: 60%;
+}
+.bg-Dog {
+  
+    background: linear-gradient(65deg,#0091ffde,#0090FF);
+    height: 60%;
+
+}
+.UP{
+    animation: up 1s infinite;
+
+}
+
+@keyframes up {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 5px; /* فاصله‌ای که دیو حرکت می‌کند */
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.DOWN{
+    animation: DOWN 1s infinite;
+
+}
+
+@keyframes DOWN {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -5px; /* فاصله‌ای که دیو حرکت می‌کند */
+    }
+    100% {
+        top: 0;
+    }
+}
+
+/* PRODUCT SLIDER */
+.product-image {
+    width: 100%;
+    height: auto;
+  }
+  .product-details {
+    text-align: center;
+    padding: 10px;
+  }
+  .product-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .product-price {
+    color: green;
+    font-size: 1.1em;
+  }
+  .product-description {
+    font-size: 0.9em;
+    color: #555;
+  }
+  .owl-carousel .item {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+.item{
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.item:hover{
+    transform: translateY(-10px);
+}
+
+.bg-money{
+    background: linear-gradient(to right, #4e9 , #1b6);
+    box-shadow: 0 10px 10px -10px #0c1;
+}
+.text-hover {
+    color: black;
+}
+.text-hover:hover{
+color: white;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.big-box {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.small-box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.small-box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.bg-moneylevel1{
+    background: linear-gradient(to right, rgb(131, 255, 119) , #1b6);
+}
+
+.bg-moneylevel2{
+    background: linear-gradient(to right, rgb(93, 252, 79) , #1b6);
+}
+
+.bg-moneylevel3{
+    background: linear-gradient(to right, rgb(39, 255, 20) , #1b6);
+}
+
+.bg-moneylevel4{
+    background: linear-gradient(to right, rgb(32, 255, 11) , #1b6);
+}
+
+.bg-moneylevel5{
+    background: linear-gradient(to right, rgb(21, 255, 0) , #1b6);
+}
+
+.bg-moneylevel6{
+    background: linear-gradient(to right, rgb(18, 212, 0) , rgb(20, 165, 1));
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.footer .social-media {
+    display: flex;
+    align-items: center;
+}
+.footer .social-media img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.footer .social-media a {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+.footer .column-links {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .column-links li {
+    margin: 5px 0;
+}
+.footer .column-links a {
+    text-decoration: none;
+    color: #000;
+}
+.footer .column-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Custom Styles */
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.input-group-text {
+    border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.input-group .form-control {
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.btn-light {
+    margin-left: 10px;
+}
